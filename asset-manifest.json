@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/videha-ai/static/css/main.886a9d0b.chunk.css",
+    "main.js": "/videha-ai/static/js/main.52201ae7.chunk.js",
+    "main.js.map": "/videha-ai/static/js/main.52201ae7.chunk.js.map",
+    "runtime-main.js": "/videha-ai/static/js/runtime-main.70f5c602.js",
+    "runtime-main.js.map": "/videha-ai/static/js/runtime-main.70f5c602.js.map",
+    "static/js/2.46b3ad29.chunk.js": "/videha-ai/static/js/2.46b3ad29.chunk.js",
+    "static/js/2.46b3ad29.chunk.js.map": "/videha-ai/static/js/2.46b3ad29.chunk.js.map",
+    "static/js/3.9f46a6c7.chunk.js": "/videha-ai/static/js/3.9f46a6c7.chunk.js",
+    "static/js/3.9f46a6c7.chunk.js.map": "/videha-ai/static/js/3.9f46a6c7.chunk.js.map",
+    "index.html": "/videha-ai/index.html",
+    "static/css/main.886a9d0b.chunk.css.map": "/videha-ai/static/css/main.886a9d0b.chunk.css.map",
+    "static/js/2.46b3ad29.chunk.js.LICENSE.txt": "/videha-ai/static/js/2.46b3ad29.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.70f5c602.js",
+    "static/js/2.46b3ad29.chunk.js",
+    "static/css/main.886a9d0b.chunk.css",
+    "static/js/main.52201ae7.chunk.js"
+  ]
+}
