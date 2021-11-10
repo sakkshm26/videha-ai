@@ -1,4 +1,9 @@
 import React from 'react'
+import arrow from '../assets/arrow.png'
+import settings from '../assets/settings.png'
+import data from '../assets/data.png'
+import data2 from '../assets/data2.png'
+import list from '../assets/list.png'
 
 function Models() {
     return (
@@ -8,13 +13,13 @@ function Models() {
             <div className='images'>
                 <img className='before' src='https://videha.ai/static/media/product.0d8b50d9.png' />
                 <div className='after-images none'>
-                    <img className='img-step' src='data.png' />
-                    <img className='arrow' src='arrow.png' />
-                    <img className='img-step' src='settings.png' />
-                    <img className='arrow' src='arrow.png' />
-                    <img className='img-step' src='data2.png' />
-                    <img className='arrow' src='arrow.png' />
-                    <img className='img-step' src='list.png' />
+                    <img className='img-step' src={data} />
+                    <img className='arrow' src={arrow} />
+                    <img className='img-step' src={settings} />
+                    <img className='arrow' src={arrow} />
+                    <img className='img-step' src={data2} />
+                    <img className='arrow' src={arrow} />
+                    <img className='img-step' src={list} />
                 </div>
             </div>
         </div>

@@ -1,17 +1,19 @@
-import React, {useEffect} from 'react'
+import React, {useState} from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCaretDown, faCoffee } from '@fortawesome/free-solid-svg-icons'
+import { faBars, faCaretDown, faCoffee, faCross, faTimes } from '@fortawesome/free-solid-svg-icons'
 
 function Navbar() {  
+
+    const[isMobile, setIsMobile] = useState(false)
     
     return (
         <div>
             <nav>
-                <ul className='navbar'>
+                <ul className = {isMobile ? 'navbar-mobile' : 'navbar'} id='navbar' >
                     <li className='logo'>Videha AI</li>
                     <li className='list-item'>Home</li>
                     <li className='list-item'>Product</li>
-                    <li className='list-item'>                    
+                    <li className='list-item'>                  
                         <select className='dropdown'>
                             <option>Solutions</option>
                             <option>Finance</option>
@@ -20,26 +22,9 @@ function Navbar() {
                     </li>
                     <li className='list-item'>Resources</li>
                 </ul>
-                {/* <div className='responsive-navbar '>
-                      <div className='nav-links'>
-                        <li className='logo'>Videha AI</li>
-                        <li className='list-item'>Home</li>
-                        <li className='list-item'>Product</li>
-                        <li className='list-item'>                 
-                            <select className='dropdown'>
-                              <option>Solutions</option>
-                              <option>Finance</option>
-                              <option>Healthcare</option>
-                            </select>
-                        </li>
-                        <li className='list-item'>Resources</li>
-                      </div>  
-                        <span class="toggle">
-                          <span class="bar"></span>
-                          <span class="bar"></span>
-                          <span class="bar"></span>
-                        </span>
-                </div> */}
+                <button className="toggle" id='toggle' onClick={() => setIsMobile(!isMobile)}>
+                    {isMobile ? <FontAwesomeIcon icon={faTimes}/> : <FontAwesomeIcon icon={faBars}/> }                   
+                </button>
             </nav>
         </div>
     )
